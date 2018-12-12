@@ -22,6 +22,9 @@ pipeline {
 			}
 		}
 		stage("deploy") {
+		    when {
+                branch "latest"
+            }
 			steps {
 				withMaven(maven: 'Maven 3') {
 					sh "mvn deploy"
