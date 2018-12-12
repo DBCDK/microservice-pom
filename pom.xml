@@ -11,6 +11,14 @@
   <version>latest-SNAPSHOT</version>
   <packaging>pom</packaging>
 
+  <distributionManagement>
+    <repository>
+      <id>mavenrepo.dbc.dk</id>
+      <name>mavenrepo</name>
+      <url>http://mavenrepo.dbc.dk/content/repositories/snapshots</url>
+    </repository>
+  </distributionManagement>
+
   <repositories>
     <repository>
       <id>mavenrepo.dbc.dk</id>
