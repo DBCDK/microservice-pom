@@ -4,6 +4,9 @@ def workerNode = "devel8"
 
 pipeline {
 	agent {label workerNode}
+	tools {
+        maven "Maven 3"
+    }
 	triggers {
 		pollSCM("H/05 * * * *")
 	}
@@ -16,9 +19,7 @@ pipeline {
 		}
 		stage("verify") {
 			steps {
-				withMaven(maven: 'Maven 3') {
-					sh "mvn verify"
-				}
+                sh "mvn verify"
 			}
 		}
 		stage("deploy") {
@@ -26,9 +27,7 @@ pipeline {
                 branch "latest"
             }
 			steps {
-				withMaven(maven: 'Maven 3') {
-					sh "mvn deploy"
-				}
+                sh "mvn deploy"
 			}
 		}
 	}
