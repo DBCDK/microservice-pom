@@ -35,7 +35,7 @@
 
   <properties>
     <jdk.target.version>1.8</jdk.target.version>
-    <flyway.version>5.1.4</flyway.version>
+    <flyway.version>5.2.4</flyway.version>
     <hamcrest.version>1.3</hamcrest.version>
     <jackson.version>2.9.8</jackson.version>
     <javaee.version>8.0</javaee.version>
@@ -47,7 +47,7 @@
     <mockito.version>2.23.4</mockito.version>
     <postgresql-driver.version>42.2.5</postgresql-driver.version>
     <slf4j.version>1.7.25</slf4j.version>
-    <snakeyaml.version>1.18</snakeyaml.version>
+    <snakeyaml.version>1.23</snakeyaml.version>
   </properties>
 
   <dependencyManagement>
@@ -163,7 +163,7 @@
       <dependency>
         <groupId>org.postgresql</groupId>
         <artifactId>postgresql</artifactId>
-        <version>42.2.5</version>
+        <version>${postgresql-driver.version}</version>
         <scope>provided</scope>
       </dependency>
 
