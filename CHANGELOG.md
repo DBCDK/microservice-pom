@@ -9,6 +9,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 - Update snakeyaml version from 1.18 to 1.23.
 
 ## 201904
+- No changes.
 
 ## 201902
 ### Added
