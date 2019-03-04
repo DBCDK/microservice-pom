@@ -3,16 +3,16 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
-## [Unreleased]
+## latest
 ### Added
 - project.build.sourceEncoding property with value UTF-8.
-- default docker resources processing via maven-resources-plugin execution. 
+- default docker resources processing via maven-resources-plugin execution.
   Files in src/main/docker are filtered and copied to target/docker.
 ### Changed
 - Update junit5 version from 5.3.2 to 5.4.0 [junit5 release notes](https://junit.org/junit5/docs/current/release-notes/index.html#release-notes-5.4.0).
 - Update mockito version from 2.23.4 to 2.24.5 [mockito release notes](https://github.com/mockito/mockito/blob/release/2.x/doc/release-notes/official.md).
 
-## latest
+## 201910
 ### Changed
 - Update flyway version from 5.1.4 to 5.2.4 [flyway release notes](https://flywaydb.org/documentation/releaseNotes#5.2.4).
 - Update snakeyaml version from 1.18 to 1.23.
