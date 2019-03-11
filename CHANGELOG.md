@@ -3,6 +3,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## Unreleased
+### Added
+- payara.version property.
+- hazelcast.version property.
+- Provided scope dependency for Hazelcast core module (com.hazelcast:hazelcast).
+
 ## latest
 ### Added
 - project.build.sourceEncoding property with value UTF-8.
