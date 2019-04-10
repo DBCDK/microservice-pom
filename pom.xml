@@ -254,7 +254,7 @@
           <version>3.1.0</version>
           <executions>
             <execution>
-              <id>process docker resources</id>
+              <id>process-docker-resources</id>
               <phase>process-resources</phase>
               <goals>
                 <goal>copy-resources</goal>
