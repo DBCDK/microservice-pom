@@ -45,7 +45,7 @@
     <junit4.version>4.12</junit4.version>
     <junit5.version>5.4.0</junit5.version>
     <logback.version>1.2.3</logback.version>
-    <microprofile.version>1.4</microprofile.version>
+    <microprofile.version>2.1</microprofile.version>
     <mockito.version>2.24.5</mockito.version>
     <payara.version>5.184.2</payara.version>
     <postgresql-driver.version>42.2.5</postgresql-driver.version>

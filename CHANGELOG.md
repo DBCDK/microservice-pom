@@ -3,6 +3,10 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## [Unreleased]
+### Changed
+- Update microprofile version from 1.3 to 2.1 [microprofile 2.1 release notes](https://github.com/eclipse/microprofile/releases/tag/2.1).
+
 ## latest
 ### Added
 - payara.version property.
