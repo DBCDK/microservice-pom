@@ -3,7 +3,7 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
-## [Unreleased]
+## latest
  ### Added
 - eclipselink dependency.
 ### Changed
@@ -11,7 +11,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 - Update mockito version from 2.24.5 to 2.27.0 [mockito release notes](https://github.com/mockito/mockito/blob/release/2.x/doc/release-notes/official.md).
 - Update payara version from 5.184.2 to 5.191.1.
 
-## latest
+## 201917
 ### Added
 - payara.version property.
 - hazelcast.version property.
