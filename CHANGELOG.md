@@ -5,6 +5,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
 - Update payara version from 5.184.2 to 5.191.2.
+- Update junit5 version from 5.4.0 to 5.4.2 [junit5 release notes](https://junit.org/junit5/docs/snapshot/release-notes/index.html#release-notes-5.4.2).
 
 ## latest
  ### Added
