@@ -24,7 +24,7 @@ pipeline {
 		}
 		stage("deploy") {
 		    when {
-                branch "latest"
+				anyOf { branch "latest"; branch "master" }
             }
 			steps {
                 sh "mvn deploy"
