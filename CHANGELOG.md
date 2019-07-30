@@ -4,7 +4,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## latest
-- No changes.
+### Added 
+ - opentable embedded postgresql otj-pg-embedded dependency
+ - [testcontainers](https://www.testcontainers.org/) dependency 
+### Changed
+ - update junit5 version from 5.4.2 to 5.5.1 [junit5 release notes](https://junit.org/junit5/docs/current/release-notes/index.html#release-notes-5.5.1)
 
 ## 201926
 - No changes.

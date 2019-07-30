@@ -8,15 +8,20 @@
   <!-- Basic information about this module -->
   <groupId>dk.dbc</groupId>
   <artifactId>microservice-pom</artifactId>
-  <version>master-SNAPSHOT</version>
+  <version>old2018</version>
   <packaging>pom</packaging>
 
   <distributionManagement>
     <repository>
       <id>mavenrepo.dbc.dk</id>
       <name>mavenrepo</name>
-      <url>http://mavenrepo.dbc.dk/content/repositories/snapshots</url>
+      <url>http://mavenrepo.dbc.dk/content/repositories/releases</url>
     </repository>
+    <snapshotRepository>
+      <id>mavenrepo.dbc.dk</id>
+      <name>mavenrepo</name>
+      <url>http://mavenrepo.dbc.dk/content/repositories/snapshots</url>
+    </snapshotRepository>
   </distributionManagement>
 
   <repositories>
