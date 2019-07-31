@@ -23,9 +23,12 @@ read -p "Press enter to continue"
 # Create new old-xxx
 git checkout latest
 git branch -m "$newOldVersion"
+git push origin :latest
+git push --set-upstream origin "$newOldVersion"
 mvn versions:set "-DnewVersion=$newOldVersion"
 rm pom.xml.versionsBackup
 git commit -a -m "Auto update version to $newOldVersion"
+git push
 # create new latest
 git checkout master
 git checkout -b latest
