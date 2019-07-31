@@ -7,6 +7,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 ### Added 
  - opentable embedded postgresql otj-pg-embedded dependency
  - [testcontainers](https://www.testcontainers.org/) dependency 
+ - force maven-surefire-plugin plugin version to 2.22.2 for junit5 integration
+ - Distribution setup for snapshotRepository
 ### Changed
  - update junit5 version from 5.4.2 to 5.5.1 [junit5 release notes](https://junit.org/junit5/docs/current/release-notes/index.html#release-notes-5.5.1)
 
