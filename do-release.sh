@@ -24,11 +24,13 @@ read -p "Press enter to continue"
 git checkout latest
 git branch -m "$newOldVersion"
 mvn versions:set "-DnewVersion=$newOldVersion"
+rm pom.xml.versionsBackup
 git commit -a -m "Auto update version to $newOldVersion"
 # create new latest
 git checkout master
 git checkout -b latest
 mvn versions:set -DnewVersion=latest-SNAPSHOT
+rm pom.xml.versionsBackup
 git commit -a -m "Auto updte pom version to latest-SNAPSHOT"
 git checkout master
 git push 
