@@ -25,15 +25,13 @@ git checkout latest
 git branch -m "$newOldVersion"
 git push origin :latest
 git push --set-upstream origin "$newOldVersion"
-mvn versions:set "-DnewVersion=$newOldVersion"
-rm pom.xml.versionsBackup
+mvn versions:set -DgenerateBackupPoms=false -DnewVersion=$newOldVersion
 git commit -a -m "Auto update version to $newOldVersion"
 git push
 # create new latest
 git checkout master
 git checkout -b latest
-mvn versions:set -DnewVersion=latest-SNAPSHOT
-rm pom.xml.versionsBackup
+mvn versions:set -DgenerateBackupPoms=false -DnewVersion=latest-SNAPSHOT
 git commit -a -m "Auto updte pom version to latest-SNAPSHOT"
 git checkout master
 git push --all origin
