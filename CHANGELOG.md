@@ -5,12 +5,16 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## latest
 ### Added 
- - opentable embedded postgresql otj-pg-embedded dependency
- - [testcontainers](https://www.testcontainers.org/) dependency 
- - force maven-surefire-plugin plugin version to 2.22.2 for junit5 integration
- - Distribution setup for snapshotRepository
+ - Opentable embedded postgresql otj-pg-embedded dependency.
+ - [testcontainers](https://www.testcontainers.org/) dependency. 
+ - Force maven-surefire-plugin plugin version to 2.22.2 for junit5 integration.
+ - Distribution setup for snapshot repository.
+ - hamcrest-all dependency (be advised that both hamcrest-core and hamcrest-all are deprecated, use hamcrest instead).
+ - hamcrest dependency [hamcrest release notes](http://hamcrest.org/JavaHamcrest/distributables).
 ### Changed
- - update junit5 version from 5.4.2 to 5.5.1 [junit5 release notes](https://junit.org/junit5/docs/current/release-notes/index.html#release-notes-5.5.1)
+ - Update jackson version from 2.9.8 to 2.9.9 [jackson release notes](https://github.com/FasterXML/jackson/wiki/Jackson-Release-2.9.9).
+ - Update junit5 version from 5.4.2 to 5.5.1 [junit5 release notes](https://junit.org/junit5/docs/current/release-notes/index.html#release-notes-5.5.1).
+ - Update mockito version from 2.27.0 to 2.28.2 [mockito release notes](https://github.com/mockito/mockito/blob/release/2.x/doc/release-notes/official.md).
 
 ## 201926
 - No changes.
