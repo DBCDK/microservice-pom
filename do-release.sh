@@ -32,6 +32,6 @@ git push
 git checkout master
 git checkout -b latest
 mvn versions:set -DgenerateBackupPoms=false -DnewVersion=latest-SNAPSHOT
-git commit -a -m "Auto updte pom version to latest-SNAPSHOT"
+git commit -a -m "Auto update pom version to latest-SNAPSHOT"
 git checkout master
 git push --all origin
