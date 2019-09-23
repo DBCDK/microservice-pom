@@ -4,9 +4,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## latest
-### Added 
+- No changes.
+
+## 201939
+### Added
  - Opentable embedded postgresql otj-pg-embedded dependency.
- - [testcontainers](https://www.testcontainers.org/) dependency. 
+ - [testcontainers](https://www.testcontainers.org/) dependency.
  - Force maven-surefire-plugin plugin version to 2.22.2 for junit5 integration.
  - Distribution setup for snapshot repository.
  - hamcrest-all dependency (be advised that both hamcrest-core and hamcrest-all are deprecated, use hamcrest instead).
