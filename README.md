@@ -14,4 +14,4 @@ defaults to current week.
 ./do-release.sh
 ```                       
                                                                
-If a specfic old name is wantet specify it as the first argument to the script
+If a specific old name is wanted specify it as the first argument to the script

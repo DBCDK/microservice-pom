@@ -44,19 +44,19 @@
     <jdk.target.version>1.8</jdk.target.version>
     <flyway.version>5.2.4</flyway.version>
     <hamcrest.version>2.1</hamcrest.version>
-    <hazelcast.version>3.11.1</hazelcast.version>
-    <jackson.version>2.9.8</jackson.version>
+    <hazelcast.version>3.12</hazelcast.version>
+    <jackson.version>2.9.9</jackson.version>
     <javaee.version>8.0</javaee.version>
     <jersey.version>2.27</jersey.version>
     <junit4.version>4.12</junit4.version>
     <junit5.version>5.5.1</junit5.version>
     <logback.version>1.2.3</logback.version>
-    <microprofile.version>2.1</microprofile.version>
+    <microprofile.version>2.2</microprofile.version>
     <mockito.version>2.28.2</mockito.version>
-    <payara.version>5.191.5</payara.version>
-    <payara.major.minor.version>5.191</payara.major.minor.version>
+    <payara.version>5.193.1</payara.version>
+    <payara.major.minor.version>5.193</payara.major.minor.version>
     <postgresql-driver.version>42.2.5</postgresql-driver.version>
-    <slf4j.version>1.7.25</slf4j.version>
+    <slf4j.version>1.7.28</slf4j.version>
     <snakeyaml.version>1.24</snakeyaml.version>
     <otj-pg-embedded.version>0.13.1</otj-pg-embedded.version>
     <testcontainers.version>1.11.3</testcontainers.version>

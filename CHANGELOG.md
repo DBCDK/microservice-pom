@@ -3,11 +3,17 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
-## [Unreleased]
+## latest
 ### Changed
  - Add missing type pom to junit-bom dependency.
+ - Update hazelcast version from 3.11.1 to 3.12 [hazelcast release notes](https://docs.hazelcast.org/docs/rn/#3-12).
+ - Update jackson version from 2.9.8 to 2.9.9 [jackson release notes](https://github.com/FasterXML/jackson/wiki/Jackson-Release-2.9.9).
+ - Update jersey version from 2.27 to 2.29 [jerey release notes](https://github.com/eclipse-ee4j/jersey/releases/tag/2.29).
+ - Update microprofile version from 2.1 to 2.2 [microprofile release notes](https://github.com/eclipse/microprofile/releases/tag/2.2).
+ - Update payara version from 5.191 to 5.193 [payara release notes](https://docs.payara.fish/release-notes/release-notes-193.html).
+ - Update slf4j version from 1.7.25 to 1.7.28.
 
-## latest
+## 201943
 - No changes.
 
 ## 201939
