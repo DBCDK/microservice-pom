@@ -45,7 +45,7 @@
     <flyway.version>5.2.4</flyway.version>
     <hamcrest.version>2.1</hamcrest.version>
     <hazelcast.version>3.12</hazelcast.version>
-    <jackson.version>2.9.9</jackson.version>
+    <jackson.version>2.10.0</jackson.version>
     <javaee.version>8.0</javaee.version>
     <jersey.version>2.27</jersey.version>
     <junit4.version>4.12</junit4.version>
