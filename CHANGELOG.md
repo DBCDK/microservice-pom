@@ -3,8 +3,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## [Unreleased]
+### Changed
+ - Update jersey version from 2.27 to 2.29 (since it was omitted by a mistake).
+
 ## latest
-- No changes.
+ - No changes.
 
 ## 201948
 ### Changed
