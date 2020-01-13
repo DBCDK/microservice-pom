@@ -3,6 +3,15 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+ ## [Unreleased]
+### Changed
+ - Update flyway version from 5.2.4 to 6.1.4 [flyway release notes](https://flywaydb.org/documentation/releaseNotes#6.1.4).
+ - Update jackson version from 2.9.9 to 2.10.0 [jackson release notes](https://github.com/FasterXML/jackson/wiki/Jackson-Release-2.10).
+ - Update jersey version from 2.29 to 2.29.1 [jersey release notes](https://github.com/eclipse-ee4j/jersey/releases/tag/2.29.1).
+ - Update junit5 version from 5.5.1 to 5.5.2 [junit5 release notes](https://junit.org/junit5/docs/current/release-notes/index.html#release-notes-5.5.2).
+ - Update microprofile version from 2.2 to 3.2 [microprofile release notes](https://github.com/eclipse/microprofile/releases/tag/3.2).
+ - Update payara version from 5.193.1 to 5.194 [payara release notes](https://docs.payara.fish/release-notes/release-notes-194.html).
+
 ## latest
 ### Changed
  - Update jersey version from 2.27 to 2.29 (since it was omitted by a mistake).
