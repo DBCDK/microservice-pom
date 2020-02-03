@@ -4,6 +4,9 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## latest
+ - No changes.
+
+## 202006
 ### Changed
  - Update flyway version from 5.2.4 to 6.1.4 [flyway release notes](https://flywaydb.org/documentation/releaseNotes#6.1.4).
  - Update jackson version from 2.9.9 to 2.10.0 [jackson release notes](https://github.com/FasterXML/jackson/wiki/Jackson-Release-2.10).
