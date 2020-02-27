@@ -6,7 +6,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 ## [Unreleased]
 ### Added
  - Use dk.dbc:super-pom:master-SNAPSHOT parent.
- 
+### Changed
+ - Update testcontainers version from 1.11.3 to 1.12.5 [testcontainers release notes](https://github.com/testcontainers/testcontainers-java/releases/tag/1.12.5).
+
 ## latest
  - No changes.
 
