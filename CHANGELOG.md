@@ -7,6 +7,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 ### Added
  - Use dk.dbc:super-pom:master-SNAPSHOT parent.
 ### Changed
+ - Update hazelcast version from 3.12 to 3.12.6 [hazelcast release notes](https://docs.hazelcast.org/docs/rn/#3-12-6).
+ - Update jackson version from 2.10.0 to 2.10.2 [jackson release notes](https://github.com/FasterXML/jackson/wiki/Jackson-Release-2.10).
+ - Update jersey version from 2.29.1 to 2.30 [jersey release notes](https://github.com/eclipse-ee4j/jersey/releases/tag/2.30).
+ - Update snakeyaml version from to 1.24 to 1.25 [snakeyaml release notes](https://bitbucket.org/asomov/snakeyaml/wiki/Changes).
  - Update testcontainers version from 1.11.3 to 1.12.5 [testcontainers release notes](https://github.com/testcontainers/testcontainers-java/releases/tag/1.12.5).
 
 ## latest
