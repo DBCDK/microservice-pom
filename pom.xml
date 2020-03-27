@@ -25,6 +25,7 @@
     <hazelcast.version>3.12.6</hazelcast.version>
     <jackson.version>2.10.2</jackson.version>
     <javaee.version>8.0</javaee.version>
+    <jakartaee.version>8.0.0</jakartaee.version>
     <jersey.version>2.30</jersey.version>
     <junit4.version>4.12</junit4.version>
     <junit5.version>5.5.2</junit5.version>
@@ -95,9 +96,23 @@
       </dependency>
 
       <dependency>
+        <groupId>jakarta.platform</groupId>
+        <artifactId>jakarta.jakartaee-api</artifactId>
+        <version>${jakartaee.version}</version>
+        <scope>provided</scope>
+      </dependency>
+
+      <dependency>
         <groupId>javax</groupId>
         <artifactId>javaee-web-api</artifactId>
         <version>${javaee.version}</version>
+        <scope>provided</scope>
+      </dependency>
+
+      <dependency>
+        <groupId>jakarta.platform</groupId>
+        <artifactId>jakarta.jakartaee-web-api</artifactId>
+        <version>${jakartaee.version}</version>
         <scope>provided</scope>
       </dependency>
 
