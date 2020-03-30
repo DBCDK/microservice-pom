@@ -3,7 +3,7 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
-## [Unreleased]
+## latest
 ### Added
  - Use dk.dbc:super-pom:master-SNAPSHOT parent.
  - Add jakarta.platform:jakarta.jakartaee-api:8.0.0 provided scoped dependency.
@@ -16,7 +16,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
  - Update snakeyaml version from to 1.24 to 1.25 [snakeyaml release notes](https://bitbucket.org/asomov/snakeyaml/wiki/Changes).
  - Update testcontainers version from 1.11.3 to 1.12.5 [testcontainers release notes](https://github.com/testcontainers/testcontainers-java/releases/tag/1.12.5).
 
-## latest
+## 202014
  - No changes.
 
 ## 202006
