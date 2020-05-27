@@ -8,13 +8,13 @@
   <!-- Basic information about this module -->
   <groupId>dk.dbc</groupId>
   <artifactId>microservice-pom</artifactId>
-  <version>master-SNAPSHOT</version>
+  <version>java11-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <parent>
     <groupId>dk.dbc</groupId>
     <artifactId>super-pom</artifactId>
-    <version>master-SNAPSHOT</version>
+    <version>java11-SNAPSHOT</version>
     <relativePath></relativePath>
   </parent>
 
