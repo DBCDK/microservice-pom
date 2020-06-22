@@ -4,6 +4,9 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## latest
+ - No changes.
+
+## 202026
 ### Added
  - Use dk.dbc:super-pom:master-SNAPSHOT parent.
  - Add jakarta.platform:jakarta.jakartaee-api:8.0.0 provided scoped dependency.
