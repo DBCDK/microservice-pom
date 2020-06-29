@@ -3,7 +3,7 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
-## Unreleased
+## latest
 ### Changed
  - Update eclipselink version from 2.7.4 to 2.7.6
  - Update flyway version from 6.1.4 to 6.4.4 [flyway release notes](https://flywaydb.org/documentation/releaseNotes#6.4.4)
@@ -13,7 +13,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
  - Update payara version from 5.201 to 5.20.0 [payara release notes](https://docs.payara.fish/enterprise/docs/5.20.0/release-notes/release-notes-20-0.html)
  - Update testcontainers version from 1.12.5 to 1.14.3 [testcontainers release notes](https://github.com/testcontainers/testcontainers-java/releases/tag/1.14.3)
 
-## latest
+## 202027
  - No changes.
 
 ## 202026
