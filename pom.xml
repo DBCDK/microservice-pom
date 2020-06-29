@@ -19,8 +19,8 @@
   </parent>
 
   <properties>
-    <eclipselink.version>2.7.4</eclipselink.version>
-    <flyway.version>6.1.4</flyway.version>
+    <eclipselink.version>2.7.6</eclipselink.version>
+    <flyway.version>6.4.4</flyway.version>
     <hamcrest.version>2.1</hamcrest.version>
     <hazelcast.version>3.12.6</hazelcast.version>
     <jackson.version>2.10.2</jackson.version>
@@ -28,17 +28,17 @@
     <jakartaee.version>8.0.0</jakartaee.version>
     <jersey.version>2.30</jersey.version>
     <junit4.version>4.12</junit4.version>
-    <junit5.version>5.5.2</junit5.version>
+    <junit5.version>5.6.2</junit5.version>
     <logback.version>1.2.3</logback.version>
-    <microprofile.version>3.2</microprofile.version>
+    <microprofile.version>3.3</microprofile.version>
     <mockito.version>3.3.3</mockito.version>
-    <payara.version>5.201</payara.version>
-    <payara.major.minor.version>5.201</payara.major.minor.version>
+    <payara.version>5.20</payara.version>
+    <payara.major.minor.version>5.20.0</payara.major.minor.version>
     <postgresql-driver.version>42.2.5</postgresql-driver.version>
     <slf4j.version>1.7.28</slf4j.version>
     <snakeyaml.version>1.25</snakeyaml.version>
-    <otj-pg-embedded.version>0.13.1</otj-pg-embedded.version>
-    <testcontainers.version>1.12.5</testcontainers.version>
+    <otj-pg-embedded.version>0.13.3</otj-pg-embedded.version>
+    <testcontainers.version>1.14.3</testcontainers.version>
   </properties>
 
   <dependencyManagement>
