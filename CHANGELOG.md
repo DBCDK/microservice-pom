@@ -11,7 +11,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
  - Update flyway version from 6.4.4 to 6.5.5 [flyway release notes](https://flywaydb.org/documentation/releaseNotes#6.5.5).
  - Update hamcrest version from 2.1 to 2.2 [hamcrest release notes](https://github.com/hamcrest/JavaHamcrest/releases/tag/v2.2).
  - Update junit4 version from 4.12 to 4.13 [junit4 release notes](https://github.com/junit-team/junit4/blob/HEAD/doc/ReleaseNotes4.13.md).
- - Update payara version from 5.20.0 to 5.21.1 [payara release notes](https://docs.payara.fish/enterprise/docs/5.21.0/release-notes/release-notes-21-1.html).
+ - Update payara version from 5.20.0 to 5.21.2 [payara release notes](https://docs.payara.fish/enterprise/docs/5.21.0/release-notes/release-notes-21-2.html).
  - Update postgresql JDBC driver version from 42.2.5 to 42.2.16 [postgresql jdbc release notes](https://jdbc.postgresql.org/documentation/changelog.html#version_42.2.16).
  - Update slf4j version from 1.7.28 to 1.7.30 [slf4j release notes](http://www.slf4j.org/news.html).
 

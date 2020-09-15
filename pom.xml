@@ -33,7 +33,7 @@
     <microprofile.version>3.3</microprofile.version>
     <mockito.version>3.3.3</mockito.version>
     <payara.version>5.21</payara.version>
-    <payara.major.minor.version>5.21.1</payara.major.minor.version>
+    <payara.major.minor.version>5.21.2</payara.major.minor.version>
     <postgresql-driver.version>42.2.16</postgresql-driver.version>
     <slf4j.version>1.7.30</slf4j.version>
     <snakeyaml.version>1.25</snakeyaml.version>
