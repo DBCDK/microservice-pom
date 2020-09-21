@@ -3,7 +3,33 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
-## latest
+## [latest]
+### Added
+ - Add org.glassfish.jersey:jersey-bom:2.30 import scoped bom dependency.
+ - Add org.slf4j:slf4j-simple:1.7.30 test scoped dependency.
+### Changed
+ - Update flyway version from 6.4.4 to 6.5.5 [flyway release notes](https://flywaydb.org/documentation/releaseNotes#6.5.5).
+ - Update hamcrest version from 2.1 to 2.2 [hamcrest release notes](https://github.com/hamcrest/JavaHamcrest/releases/tag/v2.2).
+ - Update junit4 version from 4.12 to 4.13 [junit4 release notes](https://github.com/junit-team/junit4/blob/HEAD/doc/ReleaseNotes4.13.md).
+ - Update payara version from 5.20.0 to 5.21.2 [payara release notes](https://docs.payara.fish/enterprise/docs/5.21.0/release-notes/release-notes-21-2.html).
+ - Update postgresql JDBC driver version from 42.2.5 to 42.2.16 [postgresql jdbc release notes](https://jdbc.postgresql.org/documentation/changelog.html#version_42.2.16).
+ - Update slf4j version from 1.7.28 to 1.7.30 [slf4j release notes](http://www.slf4j.org/news.html).
+
+
+## 202039
+### Changed
+ - Update eclipselink version from 2.7.4 to 2.7.6
+ - Update flyway version from 6.1.4 to 6.4.4 [flyway release notes](https://flywaydb.org/documentation/releaseNotes#6.4.4)
+ - Update junit5 version from 5.5.2 to 5.6.2 [junit5 release notes](https://junit.org/junit5/docs/current/release-notes/index.html#release-notes-5.6.2)
+ - Update microprofile version from 3.2 to 3.3 [microprofile release notes](https://github.com/eclipse/microprofile/releases/tag/3.3)
+ - Update otj-pg-embedded version from 0.13.1 to 0.13.3 [embedded postgresql release notes](https://github.com/opentable/otj-pg-embedded/blob/master/CHANGELOG.md)
+ - Update payara version from 5.201 to 5.20.0 [payara release notes](https://docs.payara.fish/enterprise/docs/5.20.0/release-notes/release-notes-20-0.html)
+ - Update testcontainers version from 1.12.5 to 1.14.3 [testcontainers release notes](https://github.com/testcontainers/testcontainers-java/releases/tag/1.14.3)
+
+## 202027
+ - No changes.
+
+## 202026
 ### Added
  - Use dk.dbc:super-pom:master-SNAPSHOT parent.
  - Add jakarta.platform:jakarta.jakartaee-api:8.0.0 provided scoped dependency.
