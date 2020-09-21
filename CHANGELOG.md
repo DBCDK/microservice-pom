@@ -3,7 +3,7 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
-## [Unreleased]
+## [latest]
 ### Added
  - Add org.glassfish.jersey:jersey-bom:2.30 import scoped bom dependency.
  - Add org.slf4j:slf4j-simple:1.7.30 test scoped dependency.
@@ -16,7 +16,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
  - Update slf4j version from 1.7.28 to 1.7.30 [slf4j release notes](http://www.slf4j.org/news.html).
 
 
-## latest
+## 202039
 ### Changed
  - Update eclipselink version from 2.7.4 to 2.7.6
  - Update flyway version from 6.1.4 to 6.4.4 [flyway release notes](https://flywaydb.org/documentation/releaseNotes#6.4.4)
