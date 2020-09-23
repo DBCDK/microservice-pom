@@ -37,6 +37,8 @@
     <postgresql-driver.version>42.2.16</postgresql-driver.version>
     <slf4j.version>1.7.30</slf4j.version>
     <snakeyaml.version>1.25</snakeyaml.version>
+    <spotbugs.plugin.version>4.0.4</spotbugs.plugin.version>
+    <spotbugs.annotations.version>4.1.2</spotbugs.annotations.version>
     <otj-pg-embedded.version>0.13.3</otj-pg-embedded.version>
     <testcontainers.version>1.14.3</testcontainers.version>
   </properties>
@@ -217,9 +219,6 @@
         <scope>test</scope>
       </dependency>
 
-
-      
-
       <!-- Mocking framework for unit tests -->
       <dependency>
         <groupId>org.mockito</groupId>
@@ -271,6 +270,12 @@
         <groupId>org.yaml</groupId>
         <artifactId>snakeyaml</artifactId>
         <version>${snakeyaml.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>com.github.spotbugs</groupId>
+        <artifactId>spotbugs-annotations</artifactId>
+        <version>${spotbugs.annotations.version}</version>
       </dependency>
     </dependencies>
   </dependencyManagement>
@@ -334,6 +339,11 @@
               </configuration>
             </execution>
           </executions>
+        </plugin>
+        <plugin>
+          <groupId>com.github.spotbugs</groupId>
+          <artifactId>spotbugs-maven-plugin</artifactId>
+          <version>${spotbugs.plugin.version}</version>
         </plugin>
       </plugins>
     </pluginManagement>
