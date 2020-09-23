@@ -7,6 +7,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 ### Added
  - Add org.glassfish.jersey:jersey-bom:2.30 import scoped bom dependency.
  - Add org.slf4j:slf4j-simple:1.7.30 test scoped dependency.
+ - Add spotbugs plugin.
 ### Changed
  - Update flyway version from 6.4.4 to 6.5.5 [flyway release notes](https://flywaydb.org/documentation/releaseNotes#6.5.5).
  - Update hamcrest version from 2.1 to 2.2 [hamcrest release notes](https://github.com/hamcrest/JavaHamcrest/releases/tag/v2.2).
