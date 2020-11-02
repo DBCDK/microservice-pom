@@ -4,6 +4,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [latest]
+### Changed
+ - Update eclipselink version from 2.7.6 to 2.7.7
+ - Update flyway version from 6.5.5 to 7.0.4 [flyway release notes](https://flywaydb.org/documentation/learnmore/releaseNotes.html#7.0.4).
+ - Update junit4 version from 4.13 to 4.13.1 [junit4 release notes](https://github.com/junit-team/junit4/blob/HEAD/doc/ReleaseNotes4.13.1.md).
+ - Update junit5 version from 5.6.2 to 5.7.0 [junit5 release notes](https://junit.org/junit5/docs/current/release-notes/index.html#release-notes-5.7.0).
+ - Update mockito version from 3.3.3 to 3.5.15 [mockito release notes](https://github.com/mockito/mockito/blob/release/3.x/doc/release-notes/official.md#3515).
+ - Update payara version from 5.21.2 to 5.22.0 [payara release notes](https://docs.payara.fish/enterprise/docs/5.22.0/release-notes/release-notes-22-0.html).
+ - Update postgresql JDBC driver version from 42.2.16 to 42.2.18 [postgresql jdbc release notes](https://jdbc.postgresql.org/documentation/changelog.html#version_42.2.18).
+
+## [202045]
  - No changes.
 
 ## 202041
