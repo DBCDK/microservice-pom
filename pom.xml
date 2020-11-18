@@ -12,7 +12,7 @@
   <parent>
     <groupId>dk.dbc</groupId>
     <artifactId>super-pom</artifactId>
-    <version>master-SNAPSHOT</version>
+    <version>latest-SNAPSHOT</version>
     <relativePath></relativePath>
   </parent>
 
@@ -24,8 +24,8 @@
   </repositories>
 
   <properties>
-    <payara.version>5.22</payara.version>
-    <payara.major.minor.version>5.22.0</payara.major.minor.version>
+    <payara.version>5.23</payara.version>
+    <payara.major.minor.version>5.23.0</payara.major.minor.version>
   </properties>
 
   <dependencyManagement>
@@ -143,11 +143,6 @@
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-surefire-plugin</artifactId>
-          <version>2.22.2</version>
-        </plugin>
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-ejb-plugin</artifactId>
           <version>3.0.1</version>
           <configuration>
@@ -175,11 +170,6 @@
               </configuration>
             </execution>
           </executions>
-        </plugin>
-        <plugin>
-          <groupId>com.github.spotbugs</groupId>
-          <artifactId>spotbugs-maven-plugin</artifactId>
-          <version>${spotbugs.plugin.version}</version>
         </plugin>
       </plugins>
     </pluginManagement>
