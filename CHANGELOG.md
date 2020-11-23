@@ -5,6 +5,15 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [latest]
 ### Changed
+ - Update flyway version from 7.0.4 to 7.2.0 [flyway release notes](https://flywaydb.org/documentation/learnmore/releaseNotes.html#7.2.0).
+ - Update mockito version from 3.5.15 to 3.6.0 [mockito release notes](https://github.com/mockito/mockito/blob/release/3.x/doc/release-notes/official.md#360).
+ - Update payara version from 5.22.0 to 5.23.0 [payara release notes](https://docs.payara.fish/enterprise/docs/5.23.0/release-notes/release-notes-23-0.html).
+ - Update spotbugs.annotations.version from 4.1.2 to 4.1.4.
+ - Update spotbugs.plugin.version from 4.0.4 to 4.1.4.
+ - Update testcontainers version from 1.14.3 to 1.15.0 [testcontainers release notes](https://github.com/testcontainers/testcontainers-java/releases/tag/1.15.0)
+
+## [202048]
+### Changed
  - Update eclipselink version from 2.7.6 to 2.7.7
  - Update flyway version from 6.5.5 to 7.0.4 [flyway release notes](https://flywaydb.org/documentation/learnmore/releaseNotes.html#7.0.4).
  - Update junit4 version from 4.13 to 4.13.1 [junit4 release notes](https://github.com/junit-team/junit4/blob/HEAD/doc/ReleaseNotes4.13.1.md).
