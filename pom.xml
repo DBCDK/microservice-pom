@@ -8,7 +8,7 @@
   <!-- Basic information about this module -->
   <groupId>dk.dbc</groupId>
   <artifactId>microservice-pom</artifactId>
-  <version>latest-SNAPSHOT</version>
+  <version>old-202048</version>
   <packaging>pom</packaging>
 
   <parent>
