@@ -6,7 +6,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <artifactId>microservice-pom</artifactId>
-  <version>master-SNAPSHOT</version>
+  <version>latest-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <parent>
