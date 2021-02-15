@@ -3,7 +3,7 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
-## [Unreleased]
+## latest
 ### Changed
 - Update flyway version from 7.2.0 to 7.5.3 [flyway release notes](https://flywaydb.org/documentation/learnmore/releaseNotes.html#7.5.3)
 - Update junit5 version from 5.7.0 to 5.7.1 [junit5 release notes](https://junit.org/junit5/docs/current/release-notes/index.html#release-notes-5.7.1)
@@ -19,7 +19,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 - Update maven-ejb-plugin from 3.0.1 to 3.1.0 [maven-ejb-plugin release notes](https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=12317421&version=12343161)
 - Update maven-resources-plugin from 3.1.0 to 3.2.0 [maven-resources-plugin release notes](https://issues.apache.org/jira/secure/ReleaseNote.jspa?version=12343158&projectId=12317827)
 
-## [latest]
+## old-202107
 ### Changed
  - Update flyway version from 7.0.4 to 7.2.0 [flyway release notes](https://flywaydb.org/documentation/learnmore/releaseNotes.html#7.2.0).
  - Update mockito version from 3.5.15 to 3.6.0 [mockito release notes](https://github.com/mockito/mockito/blob/release/3.x/doc/release-notes/official.md#360).
