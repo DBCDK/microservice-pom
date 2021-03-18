@@ -3,6 +3,11 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## Unreleased
+### Changed
+- Update hazelcast version from 3.12.6 to 4.1 [hazelcast release notes](https://docs.hazelcast.org/docs/rn/#3-12-6)
+- Update microprofile version from 3.3 to 4.0 [microprofile release notes](https://github.com/eclipse/microprofile/releases/tag/4.0)
+
 ## latest
 ### Changed
 - Update flyway version from 7.2.0 to 7.5.3 [flyway release notes](https://flywaydb.org/documentation/learnmore/releaseNotes.html#7.5.3)
