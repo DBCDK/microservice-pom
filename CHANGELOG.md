@@ -7,6 +7,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 ### Changed
 - Update hazelcast version from 3.12.6 to 4.1 [hazelcast release notes](https://docs.hazelcast.org/docs/rn/#3-12-6)
 - Update microprofile version from 3.3 to 4.0 [microprofile release notes](https://github.com/eclipse/microprofile/releases/tag/4.0)
+- Update payara version from 5.25.0 to 5.2021.1 [payara release notes](https://docs.payara.fish/community/docs/5.2021.1/release-notes/release-notes-2021-1.html)
 
 ## latest
 ### Changed
