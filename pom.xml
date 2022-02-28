@@ -24,8 +24,8 @@
   </repositories>
 
   <properties>
-    <payara.version>5.2021</payara.version>
-    <payara.major.minor.version>5.2021.8</payara.major.minor.version>
+    <payara.version>5.2022</payara.version>
+    <payara.major.minor.version>5.2022.1</payara.major.minor.version>
   </properties>
 
   <dependencyManagement>
