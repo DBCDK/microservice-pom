@@ -6,13 +6,13 @@
   <modelVersion>4.0.0</modelVersion>
 
   <artifactId>microservice-pom</artifactId>
-  <version>master-SNAPSHOT</version>
+  <version>java17-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <parent>
     <groupId>dk.dbc</groupId>
     <artifactId>super-pom</artifactId>
-    <version>latest-SNAPSHOT</version>
+    <version>java17-SNAPSHOT</version>
     <relativePath></relativePath>
   </parent>
 
@@ -24,8 +24,8 @@
   </repositories>
 
   <properties>
-    <payara.version>5.2022</payara.version>
-    <payara.major.minor.version>5.2022.1</payara.major.minor.version>
+    <payara.version>6.2022</payara.version>
+    <payara.major.minor.version>6.2022.1.Alpha2</payara.major.minor.version>
   </properties>
 
   <dependencyManagement>
