@@ -9,6 +9,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 - Update payara version from 5.2022.2 to 5.2022.3 [payara release notes](https://docs.payara.fish/community/docs/Release%20Notes/Release%20Notes%205.2022.3.html)
 
 ## latest
+- No changes
+
+## old-202236
 ### Added
 - smallrye-graphql-servlet and smallrye-graphql-ui-graphiql dependencies [smallrye-graphql](https://smallrye.io/smallrye-graphql/1.6.0/)
 ### Changed
