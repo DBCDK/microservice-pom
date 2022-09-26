@@ -3,11 +3,6 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
-## unreleased
-### Changed
-- Update hazelcast version from 4.2 to 4.2.4 [hazelcast release notes](https://docs.hazelcast.org/docs/rn/#4-2-4)
-- Update payara version from 5.2022.2 to 5.2022.3 [payara release notes](https://docs.payara.fish/community/docs/Release%20Notes/Release%20Notes%205.2022.3.html)
-
 ## latest
 - No changes
 
