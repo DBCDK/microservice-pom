@@ -3,6 +3,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## unreleased
+### Changed
+- jersey version updated from 2.34 to 2.36
+- payara version updated from 5.2022.2 to 5.2022.4 [payara release notes](https://docs.payara.fish/community/docs/Release%20Notes/Release%20Notes%205.2022.4.html?utm_campaign=Payara%20New%20Releases&utm_medium=email&_hsmi=232549972&_hsenc=p2ANqtz-8KRA8GOhLhBg3n_sYbsZqSgMVQkdIkA9EqBV0CrEzbMwgBErqJ6IUtMWx6RiNFw62Qkl0Sx98EM_Kn91HXwtXLTTxTBQ&utm_content=232549972&utm_source=hs_email)
+- spotbugs-annotations updated from 4.5.3 to 4.7.3 [spotbugs release notes](https://github.com/spotbugs/spotbugs/releases/tag/4.7.3)
+- spotbugs-maven-plugin updated from 4.5.3.0 to 4.7.2.2 [spotbugs maven plugin release notes](https://github.com/spotbugs/spotbugs-maven-plugin/releases/tag/spotbugs-maven-plugin-4.7.2.2)
+
 ## latest
 ### Added
 - kafka-clients 3.3.0 [kafka release notes](https://archive.apache.org/dist/kafka/3.3.0/RELEASE_NOTES.html)
