@@ -1,18 +1,14 @@
-<!--
-  ~ Copyright Dansk Bibliotekscenter a/s. Licensed under GPLv3
-  ~ See license text in LICENSE.txt or at https://opensource.dbc.dk/licenses/gpl-3.0/
-  -->
 <project>
   <modelVersion>4.0.0</modelVersion>
 
   <artifactId>microservice-pom</artifactId>
-  <version>master-SNAPSHOT</version>
+  <version>java8-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <parent>
     <groupId>dk.dbc</groupId>
     <artifactId>super-pom</artifactId>
-    <version>latest-SNAPSHOT</version>
+    <version>java8-SNAPSHOT</version>
     <relativePath></relativePath>
   </parent>
 
@@ -25,7 +21,7 @@
 
   <properties>
     <payara.version>5.2022</payara.version>
-    <payara.major.minor.version>5.2022.2</payara.major.minor.version>
+    <payara.major.minor.version>5.2022.4</payara.major.minor.version>
   </properties>
 
   <dependencyManagement>
