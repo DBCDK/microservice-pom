@@ -28,6 +28,7 @@ do
   git checkout $JDK
   git checkout -b "$JDK-$oldVersion"
   mvn versions:set -DgenerateBackupPoms=false -DnewVersion="$JDK-$oldVersion"
+  mvn versions:update-parent -DgenerateBackupPoms=false -DparentVersion="[$JDK-$oldVersion]"
   git commit -a -m "Autoupdate version to $JDK-$oldVersion"
   git push --set-upstream origin "$JDK-$oldVersion"
 
