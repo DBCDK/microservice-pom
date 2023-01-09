@@ -1,6 +1,6 @@
 #!groovy
 
-def workerNode = "devel10"
+def workerNode = "devel11"
 
 pipeline {
 	agent {label workerNode}
@@ -25,9 +25,7 @@ pipeline {
 		stage("deploy") {
 		    when {
 				anyOf {
-                    branch "latest";
-                    branch "master";
-					branch "old-*"
+                    branch "payara6"
                 }
             }
 			steps {
