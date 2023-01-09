@@ -30,6 +30,13 @@
       <!-- provided scoped dependencies -->
 
       <dependency>
+        <groupId>jakarta.xml.bind</groupId>
+        <artifactId>jakarta.xml.bind-api</artifactId>
+        <version>${jakarta-xml-bind.version}</version>
+        <scope>provided</scope>
+      </dependency>
+
+      <dependency>
         <groupId>org.eclipse.persistence</groupId>
         <artifactId>eclipselink</artifactId>
         <version>${eclipselink.version}</version>
