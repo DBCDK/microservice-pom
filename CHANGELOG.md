@@ -7,6 +7,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 ### Added
 - Add jakarta.jakartaee-core-api dependency
 - Add jakarta.xml.bind-api and jaxb-impl dependencies
+- Add maven-enforcer-plugin warnings for dependencies provided by the payara platform
 ### Changed
 - Update eclipselink version from 2.7.9 to 4.0.0 [eclipselink release notes](https://www.eclipse.org/eclipselink/releases/4.0.php)
 - Update flyway version from 9.0.4 to 9.11.0 [flyway release notes](https://documentation.red-gate.com/fd/release-notes-for-flyway-engine-179732572.html)
@@ -16,6 +17,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 - Update jersey version from 2.36 to 3.1.0 [jersey release notes](https://github.com/eclipse-ee4j/jersey/releases/tag/3.1.0)
 - Update junit5 version from 5.9.0 to 5.9.1 [junit5 release notes](https://junit.org/junit5/docs/current/release-notes/index.html#release-notes-5.9.1)
 - Update logback version from 1.2.3 to 1.2.11 [logback release notes](https://logback.qos.ch/news.html#1.2.11)
+- Update maven-enforcer-plugin version from 3.0.0 to 3.2.1
 - Update microprofile version from 4.1 to 5.0 [microprofile release notes](https://github.com/eclipse/microprofile/releases/tag/5.0)
 - Update mockito version from 4.6.1 to 4.11.0 [mockito release notes](https://github.com/mockito/mockito/releases/tag/v4.11.0)
 - Update payara version from 5.2022.4 to 6.2022.2 [payara release notes](https://docs.payara.fish/community/docs/6.2022.2/Release%20Notes/Release%20Notes%206.2022.1.html)
