@@ -25,9 +25,6 @@ pipeline {
 		stage("deploy") {
 		    when {
 				anyOf {
-                    branch "latest";
-                    branch "master";
-					branch "old-*"
 					branch "java11"
 					branch "java11-old-*"
                 }
