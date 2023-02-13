@@ -1,18 +1,14 @@
-<!--
-  ~ Copyright Dansk Bibliotekscenter a/s. Licensed under GPLv3
-  ~ See license text in LICENSE.txt or at https://opensource.dbc.dk/licenses/gpl-3.0/
-  -->
 <project>
   <modelVersion>4.0.0</modelVersion>
 
   <artifactId>microservice-pom</artifactId>
-  <version>master-SNAPSHOT</version>
+  <version>payara6-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <parent>
     <groupId>dk.dbc</groupId>
     <artifactId>super-pom</artifactId>
-    <version>master-SNAPSHOT</version>
+    <version>payara6-SNAPSHOT</version>
     <relativePath></relativePath>
   </parent>
 
@@ -24,14 +20,21 @@
   </repositories>
 
   <properties>
-    <payara.version>5.2022</payara.version>
-    <payara.major.minor.version>5.2022.4</payara.major.minor.version>
+    <payara.version>6.2022</payara.version>
+    <payara.major.minor.version>6.2022.2</payara.major.minor.version>
   </properties>
 
   <dependencyManagement>
     <dependencies>
 
       <!-- provided scoped dependencies -->
+
+      <dependency>
+        <groupId>jakarta.xml.bind</groupId>
+        <artifactId>jakarta.xml.bind-api</artifactId>
+        <version>${jakarta-xml-bind.version}</version>
+        <scope>provided</scope>
+      </dependency>
 
       <dependency>
         <groupId>org.eclipse.persistence</groupId>
@@ -131,6 +134,104 @@
   </dependencyManagement>
 
   <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-enforcer-plugin</artifactId>
+        <version>3.2.1</version>
+        <executions combine.children="append">
+          <execution>
+            <id>warn</id>
+            <goals>
+              <goal>enforce</goal>
+            </goals>
+            <configuration>
+              <rules>
+                <bannedDependencies>
+                  <level>WARN</level>
+                  <excludes>
+                    <exclude>ch.qos.logback:logback-classic:*:jar:*</exclude>
+                    <exclude>ch.qos.logback:logback-core:*:jar:*</exclude>
+                    <exclude>com.hazelcast:hazelcast:*:jar:*</exclude>
+                    <exclude>com.fasterxml.jackson.core:jackson-core:*:jar:*</exclude>
+                    <exclude>com.fasterxml.jackson.core:jackson-annotations:*:jar:*</exclude>
+                    <exclude>com.fasterxml.jackson.core:jackson-databind:*:jar:*</exclude>
+                    <exclude>com.fasterxml.jackson.module:jackson-module-jaxb-annotations:*:jar:*</exclude>
+                    <exclude>com.fasterxml.jackson.dataformat:jackson-dataformat-xml:*:jar:*</exclude>
+                    <exclude>com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:*:jar:*</exclude>
+                    <exclude>jakarta.platform:jakarta.jakartaee-api:*:jar:*</exclude>
+                    <exclude>jakarta.platform:jakarta.jakartaee-web-api:*:jar:*</exclude>
+                    <exclude>jakarta.xml.bind:jakarta.xml.bind-api:*:jar:*</exclude>
+                    <exclude>javax:javaee-api:*:jar:*</exclude>
+                    <exclude>javax:javaee-web-api:*:jar:*</exclude>
+                    <exclude>org.eclipse.microprofile:microprofile:*:pom:*</exclude>
+                    <exclude>org.eclipse.microprofile.config:microprofile-config-api:*:jar:*</exclude>
+                    <exclude>org.eclipse.microprofile.fault-tolerance:microprofile-fault-tolerance-api:*:jar:*</exclude>
+                    <exclude>org.eclipse.microprofile.health:microprofile-health-api:*:jar:*</exclude>
+                    <exclude>org.eclipse.microprofile.metrics:microprofile-metrics-api:*:jar:*</exclude>
+                    <exclude>org.eclipse.microprofile.jwt:microprofile-jwt-auth-api:*:jar:*</exclude>
+                    <exclude>org.eclipse.microprofile.openapi:microprofile-openapi-api:*:jar:*</exclude>
+                    <exclude>org.eclipse.microprofile.rest.client:microprofile-rest-client-api:*:jar:*</exclude>
+                    <exclude>org.eclipse.microprofile.opentracing:microprofile-opentracing-api:*:jar:*</exclude>
+                    <exclude>org.eclipse.persistence:eclipselink:*:jar:*</exclude>
+                    <exclude>org.glassfish.jersey.core:jersey-client:*:jar:*</exclude>
+                    <exclude>org.glassfish.jersey.inject:jersey-hk2:*:jar:*</exclude>
+                    <exclude>org.glassfish.jersey.media:jersey-media-json-jackson:*:jar:*</exclude>
+                    <exclude>org.postgresql:postgresql:*:jar:*</exclude>
+                    <exclude>org.slf4j:slf4j-api:*:jar:*</exclude>
+                    <exclude>org.yaml:snakeyaml:*:jar:*</exclude>
+                  </excludes>
+                  <includes>
+                    <include>ch.qos.logback:logback-classic:${logback.version}:jar:provided</include>
+                    <include>ch.qos.logback:logback-classic:${logback.version}:jar:test</include>
+                    <include>ch.qos.logback:logback-core:${logback.version}:jar:provided</include>
+                    <include>ch.qos.logback:logback-core:${logback.version}:jar:test</include>
+                    <include>com.hazelcast:hazelcast:${hazelcast.version}:jar:provided</include>
+                    <include>com.hazelcast:hazelcast:${hazelcast.version}:jar:test</include>
+                    <include>com.fasterxml.jackson.core:jackson-core:${jackson.version}:jar:provided</include>
+                    <include>com.fasterxml.jackson.core:jackson-core:${jackson.version}:jar:test</include>
+                    <include>com.fasterxml.jackson.core:jackson-annotations:${jackson.version}:jar:provided</include>
+                    <include>com.fasterxml.jackson.core:jackson-annotations:${jackson.version}:jar:test</include>
+                    <include>com.fasterxml.jackson.core:jackson-databind:${jackson.version}:jar:provided</include>
+                    <include>com.fasterxml.jackson.core:jackson-databind:${jackson.version}:jar:test</include>
+                    <include>com.fasterxml.jackson.module:jackson-module-jaxb-annotations:${jackson.version}:jar:provided</include>
+                    <include>com.fasterxml.jackson.module:jackson-module-jaxb-annotations:${jackson.version}:jar:test</include>
+                    <include>com.fasterxml.jackson.dataformat:jackson-dataformat-xml:${jackson.version}:jar:provided</include>
+                    <include>com.fasterxml.jackson.dataformat:jackson-dataformat-xml:${jackson.version}:jar:test</include>
+                    <include>com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:${jackson.version}:jar:provided</include>
+                    <include>com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:${jackson.version}:jar:test</include>
+                    <include>jakarta.platform:jakarta.jakartaee-api:${jakartaee.version}:jar:provided</include>
+                    <include>jakarta.platform:jakarta.jakartaee-web-api:${jakartaee.version}:jar:provided</include>
+                    <include>jakarta.xml.bind:jakarta.xml.bind-api:${jakarta-xml-bind.version}:jar:provided</include>
+                    <include>org.eclipse.microprofile:microprofile:${microprofile.version}:pom:*</include>
+                    <include>org.eclipse.microprofile.config:microprofile-config-api:${microprofile-config-api.version}:jar:provided</include>
+                    <include>org.eclipse.microprofile.fault-tolerance:microprofile-fault-tolerance-api:${microprofile-fault-tolerance-api.version}:jar:provided</include>
+                    <include>org.eclipse.microprofile.health:microprofile-health-api:${microprofile-health-api.version}:jar:provided</include>
+                    <include>org.eclipse.microprofile.metrics:microprofile-metrics-api:${microprofile-metrics-api.version}:jar:provided</include>
+                    <include>org.eclipse.microprofile.jwt:microprofile-jwt-auth-api:${microprofile-jwt-auth-api.version}:jar:provided</include>
+                    <include>org.eclipse.microprofile.openapi:microprofile-openapi-api:${microprofile-openapi-api.version}:jar:provided</include>
+                    <include>org.eclipse.microprofile.rest.client:microprofile-rest-client-api:${microprofile-rest-client-api.version}:jar:provided</include>
+                    <include>org.eclipse.microprofile.opentracing:microprofile-opentracing-api:${microprofile-opentracing-api.version}:jar:provided</include>
+                    <include>org.eclipse.persistence:eclipselink:${eclipselink.version}:jar:provided</include>
+                    <include>org.eclipse.persistence:eclipselink:${eclipselink.version}:jar:test</include>
+                    <include>org.glassfish.jersey.core:jersey-client:${jersey.version}:jar:*</include>
+                    <include>org.glassfish.jersey.inject:jersey-hk2:${jersey.version}:jar:test</include>
+                    <include>org.glassfish.jersey.media:jersey-media-json-jackson:${jersey.version}:jar:*</include>
+                    <include>org.postgresql:postgresql:${postgresql-driver.version}:jar:provided</include>
+                    <include>org.postgresql:postgresql:${postgresql-driver.version}:jar:test</include>
+                    <include>org.slf4j:slf4j-api:${slf4j.version}:jar:provided</include>
+                    <include>org.slf4j:slf4j-api:${slf4j.version}:jar:test</include>
+                    <include>org.yaml:snakeyaml:${snakeyaml.version}:jar:provided</include>
+                    <include>org.yaml:snakeyaml:${snakeyaml.version}:jar:test</include>
+                  </includes>
+                </bannedDependencies>
+              </rules>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+
     <pluginManagement>
       <plugins>
         <plugin>
