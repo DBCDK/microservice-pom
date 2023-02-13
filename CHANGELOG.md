@@ -17,6 +17,64 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 - javaee artifacts, moving forward only jakartaee is supported
 
 ## latest
+### Added
+- Add jakarta.jakartaee-core-api dependency
+- Add jakarta.xml.bind-api and jaxb-impl dependencies
+- Add maven-enforcer-plugin warnings for dependencies provided by the payara platform
+### Changed
+- Update eclipselink version from 2.7.9 to 4.0.0 [eclipselink release notes](https://www.eclipse.org/eclipselink/releases/4.0.php)
+- Update flyway version from 9.0.4 to 9.11.0 [flyway release notes](https://documentation.red-gate.com/fd/release-notes-for-flyway-engine-179732572.html)
+- Update hazelcast version from 4.2 to 5.1.1 [hazelcast release notes](https://docs.hazelcast.com/hazelcast/5.1/release-notes/5-1-1)
+- Update jackson version from 2.12.7 to 2.13.4 [jackson release notes](https://github.com/FasterXML/jackson/wiki/Jackson-Release-2.13.4)
+- Update jakartaee version from 8.0.0 to 10.0.0
+- Update jersey version from 2.36 to 3.1.0 [jersey release notes](https://github.com/eclipse-ee4j/jersey/releases/tag/3.1.0)
+- Update junit5 version from 5.9.0 to 5.9.1 [junit5 release notes](https://junit.org/junit5/docs/current/release-notes/index.html#release-notes-5.9.1)
+- Update logback version from 1.2.3 to 1.2.11 [logback release notes](https://logback.qos.ch/news.html#1.2.11)
+- Update maven-enforcer-plugin version from 3.0.0 to 3.2.1
+- Update microprofile version from 4.1 to 5.0 [microprofile release notes](https://github.com/eclipse/microprofile/releases/tag/5.0)
+- Update mockito version from 4.6.1 to 4.11.0 [mockito release notes](https://github.com/mockito/mockito/releases/tag/v4.11.0)
+- Update payara version from 5.2022.4 to 6.2022.2 [payara release notes](https://docs.payara.fish/community/docs/6.2022.2/Release%20Notes/Release%20Notes%206.2022.1.html)
+- Update postgresql driver version from 42.5.0 to 42.5.1 [postgresql release notes](https://jdbc.postgresql.org/changelogs/)
+- Update slf4j version from 1.7.32 to 1.7.36 [slf4j release notes](https://www.slf4j.org/news.html#1.7.36)
+- Update smallrye-graphql-servlet and smallrye-graphql-ui-graphiql version from 1.6.0 to 2.0.1 [smallrye-graphql](https://smallrye.io/smallrye-graphql/2.0.1/)
+- Update snakeyaml version from 1.28 to 1.33 [snakeyaml release notes](https://bitbucket.org/snakeyaml/snakeyaml/wiki/Changes)
+- Update spotbugs-maven-plugin version from 4.7.2.2 to 4.7.3.0 [spotbugs maven plugin release notes](https://github.com/spotbugs/spotbugs-maven-plugin/releases/tag/spotbugs-maven-plugin-4.7.3.0)
+- Update testcontainers version from 1.17.3 to 1.17.6 [testcontainers release notes](https://github.com/testcontainers/testcontainers-java/releases/tag/1.17.6)
+### Removed
+- Remove otj-pg-embedded dependency, use [dbc-commons-testcontainers-postgres](https://gitlab.dbc.dk/pu/test/dbc-commons-testcontainers-postgres) instead
+
+## old-payara5
+### Changed
+- jersey version updated from 2.34 to 2.36
+- payara version updated from 5.2022.2 to 5.2022.4 [payara release notes](https://docs.payara.fish/community/docs/Release%20Notes/Release%20Notes%205.2022.4.html?utm_campaign=Payara%20New%20Releases&utm_medium=email&_hsmi=232549972&_hsenc=p2ANqtz-8KRA8GOhLhBg3n_sYbsZqSgMVQkdIkA9EqBV0CrEzbMwgBErqJ6IUtMWx6RiNFw62Qkl0Sx98EM_Kn91HXwtXLTTxTBQ&utm_content=232549972&utm_source=hs_email)
+- spotbugs-annotations updated from 4.5.3 to 4.7.3 [spotbugs release notes](https://github.com/spotbugs/spotbugs/releases/tag/4.7.3)
+- spotbugs-maven-plugin updated from 4.5.3.0 to 4.7.2.2 [spotbugs maven plugin release notes](https://github.com/spotbugs/spotbugs-maven-plugin/releases/tag/spotbugs-maven-plugin-4.7.2.2)
+
+## old-202246
+### Added
+- kafka-clients 3.3.0 [kafka release notes](https://archive.apache.org/dist/kafka/3.3.0/RELEASE_NOTES.html)
+### Changed
+- Update postgresql driver version from 42.3.2 to 42.5.0 [postgresql release notes](https://jdbc.postgresql.org/changelogs/)
+
+## old-202241
+- No changes
+
+## old-202239
+- No changes
+
+## old-202236
+### Added
+- smallrye-graphql-servlet and smallrye-graphql-ui-graphiql dependencies [smallrye-graphql](https://smallrye.io/smallrye-graphql/1.6.0/)
+### Changed
+- Update flyway version from 8.5.0 to 9.0.4 [flyway release notes](https://flywaydb.org/documentation/learnmore/releaseNotes.html#9.0.4)
+- Update jackson version from 2.12.4 to 2.12.7 [jackson release notes](https://github.com/FasterXML/jackson/wiki/Jackson-Release-2.12.4)
+- Update junit5 version from 5.8.2 to 5.9.0 [junit5 release notes](https://junit.org/junit5/docs/current/release-notes/index.html#release-notes-5.9.0)
+- Update mockito version from 4.3.1 to 4.6.1 [mockito release notes](https://github.com/mockito/mockito/releases/tag/v4.6.1)
+- Update payara version from 5.2022.1 to 5.2022.2 [payara release notes](https://docs.payara.fish/community/docs/5.2022.2/release-notes/release-notes-2022-2.html)
+- Update testcontainers version from 1.16.3 to 1.17.3 [testcontainers release notes](https://github.com/testcontainers/testcontainers-java/releases/tag/1.17.3)
+
+
+## old-202232
 - No changes
 
 ## old-202213
