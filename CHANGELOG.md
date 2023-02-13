@@ -3,7 +3,7 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
-## unreleased
+## latest
 ### Added
 - Add jakarta.jakartaee-core-api dependency
 - Add jakarta.xml.bind-api and jaxb-impl dependencies
@@ -30,8 +30,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 ### Removed
 - Remove otj-pg-embedded dependency, use [dbc-commons-testcontainers-postgres](https://gitlab.dbc.dk/pu/test/dbc-commons-testcontainers-postgres) instead
 
-
-## latest
+## old-payara5
 ### Changed
 - jersey version updated from 2.34 to 2.36
 - payara version updated from 5.2022.2 to 5.2022.4 [payara release notes](https://docs.payara.fish/community/docs/Release%20Notes/Release%20Notes%205.2022.4.html?utm_campaign=Payara%20New%20Releases&utm_medium=email&_hsmi=232549972&_hsenc=p2ANqtz-8KRA8GOhLhBg3n_sYbsZqSgMVQkdIkA9EqBV0CrEzbMwgBErqJ6IUtMWx6RiNFw62Qkl0Sx98EM_Kn91HXwtXLTTxTBQ&utm_content=232549972&utm_source=hs_email)
