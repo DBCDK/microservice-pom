@@ -5,6 +5,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## latest
 ### Added
+- sonarcube sonar.host.url, sonar.java.binaries, and sonar.source default properties
+- sonar-maven-plugin
+
+## old-202338
+### Added
 - Add maven-failsafe-plugin dependency
 ### Changed
 - Update maven-compiler-plugin version from 3.8.1 to 3.11.0 [release notes](https://github.com/apache/maven-compiler-plugin/releases/tag/maven-compiler-plugin-3.11.0)
