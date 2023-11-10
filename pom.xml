@@ -50,6 +50,13 @@
         <scope>provided</scope>
       </dependency>
 
+      <dependency>
+        <groupId>javax.cache</groupId>
+        <artifactId>cache-api</artifactId>
+        <version>${jcache.version}</version>
+        <scope>provided</scope>
+      </dependency>
+
       <!-- Jackson is a high-performance JSON processor (parser, generator) -->
       <dependency>
         <groupId>com.fasterxml.jackson.core</groupId>
