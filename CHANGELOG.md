@@ -19,9 +19,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 - Update maven-resources-plugin from 3.2.0 to 3.3.1
 - Update maven-surefire-plugin version from 3.0.0 to 3.2.1 [release notes](https://github.com/apache/maven-surefire/releases/tag/surefire-3.2.1)
 - Update maven-war-plugin from 3.3.1 to 3.4.0
-- Update microprofile version from 5.0 to 6.0 [microprofile release notes](https://github.com/eclipse/microprofile/releases/tag/6.0)
+- Update microprofile version from 5.0 to 6.1 [microprofile release notes](https://github.com/eclipse/microprofile/releases/tag/6.1)
 - Update mockito version from 4.11.0 to 5.6.0 [mockito release notes](https://github.com/mockito/mockito/releases/tag/v5.6.0)
-- Update payara version from 6.2022.2 to 6.2023.10 [payara release notes](https://docs.payara.fish/community/docs/6.2023.10/Release%20Notes/Release%20Notes%206.2023.10.html)
+- Update payara version from 6.2022.2 to 6.2023.11 [payara release notes](https://docs.payara.fish/community/docs/Release%20Notes/Release%20Notes%206.2023.11.html)
 - Update postgresql driver version from 42.5.1 to 42.6.0 [postgresql release notes](https://jdbc.postgresql.org/changelogs/)
 - Update smallrye-graphql-servlet and smallrye-graphql-ui-graphiql version from 2.0.1 to 2.5.1 [smallrye-graphql](https://smallrye.io/smallrye-graphql)
 - Update snakeyaml version from 1.33 to 2.0 [snakeyaml release notes](https://bitbucket.org/snakeyaml/snakeyaml/wiki/Changes)
