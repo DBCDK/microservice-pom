@@ -20,8 +20,8 @@
   </repositories>
 
   <properties>
-    <payara.version>6.2023</payara.version>
-    <payara.major.minor.version>6.2023.11</payara.major.minor.version>
+    <payara.version>6.2024</payara.version>
+    <payara.major.minor.version>6.2024.6</payara.major.minor.version>
   </properties>
 
   <dependencyManagement>
@@ -145,7 +145,6 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-enforcer-plugin</artifactId>
-        <version>3.2.1</version>
         <executions combine.children="append">
           <execution>
             <id>warn</id>
@@ -273,7 +272,6 @@
         </plugin>
         <plugin>
           <artifactId>maven-resources-plugin</artifactId>
-          <version>3.3.1</version>
           <executions>
             <execution>
               <id>process-docker-resources</id>
