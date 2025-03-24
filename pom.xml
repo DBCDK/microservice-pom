@@ -2,13 +2,13 @@
   <modelVersion>4.0.0</modelVersion>
 
   <artifactId>microservice-pom</artifactId>
-  <version>master-SNAPSHOT</version>
+  <version>master</version>
   <packaging>pom</packaging>
 
   <parent>
     <groupId>dk.dbc</groupId>
     <artifactId>super-pom</artifactId>
-    <version>master-SNAPSHOT</version>
+    <version>master</version>
     <relativePath></relativePath>
   </parent>
 
@@ -20,8 +20,8 @@
   </repositories>
 
   <properties>
-    <payara.version>6.2024</payara.version>
-    <payara.major.minor.version>6.2024.6</payara.major.minor.version>
+    <payara.version>6.2025</payara.version>
+    <payara.major.minor.version>6.2025.2</payara.major.minor.version>
   </properties>
 
   <dependencyManagement>
