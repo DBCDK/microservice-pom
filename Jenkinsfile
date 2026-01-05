@@ -25,7 +25,8 @@ pipeline {
 		stage("deploy") {
 		    when {
 				anyOf {
-                    branch "master"
+                    branch "java25"
+                    branch "java25-old-*"
                 }
             }
 			steps {
