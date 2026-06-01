@@ -1,7 +1,7 @@
 # Micro-service pom
 
 The DBC shared master pom for JavaEE microServices.
-Matches Payara5 Docker images.
+Matches PayaraX Docker images.
 
 **Remember** to update the CHANGELOG.md file on **every pull request**
 
