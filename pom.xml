@@ -21,7 +21,7 @@
 
   <properties>
     <payara.version>7.2026</payara.version>
-    <payara.major.minor.version>7.2026.5</payara.major.minor.version>
+    <payara.major.minor.version>7.2026.10</payara.major.minor.version>
   </properties>
 
   <dependencyManagement>
